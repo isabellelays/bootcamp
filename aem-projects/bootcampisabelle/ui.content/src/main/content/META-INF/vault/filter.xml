@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/bootcampisabelle" mode="merge"/>
+    <filter root="/content/bootcampisabelle" mode="merge"/>
+    <filter root="/content/dam/bootcampisabelle" mode="merge">
+        <exclude pattern="/content/dam/bootcampisabelle(/.*)?"/>
+        <include pattern="/content/dam/bootcampisabelle/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/bootcampisabelle/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/bootcampisabelle" mode="merge"/>
+</workspaceFilter>

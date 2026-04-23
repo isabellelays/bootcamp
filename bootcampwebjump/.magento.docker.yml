@@ -1,0 +1,19 @@
+name: magento
+system:
+  mode: 'developer'
+services:
+  php:
+    version: '8.4'
+    extensions:
+      enabled:
+        - xsl
+        - redis
+  mysql:
+    version: '10.6'
+    image: 'mariadb'
+  redis:
+    version: '7.0'
+    image: 'redis'
+  opensearch:
+    version: '2.4'
+    image: 'magento/magento-cloud-docker-opensearch'

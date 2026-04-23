@@ -1,0 +1,13 @@
+<sly data-sly-use.model="com.bootcamp.core.models.HelloBootcampModel"/>
+
+<div class="cmp-hellobootcamp" data-sly-test="${model.message}">
+    <h2 class="cmp-helloworld__title">${model.greeting}</h2>
+
+    <p data-sly-test="${model.visitorName}" class="cmp-helloworld__visitor">
+        Visitante: ${model.visitorName}
+    </p>
+</div>
+
+<div data-sly-test="${!model.message}" class="cmp-helloworld cmp-helloworld--empty">
+    <p>Configure este componente para exibir uma mensagem.</p>
+</div>

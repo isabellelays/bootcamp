@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/bootcamp-isabelle/clientlibs"/>
+    <filter root="/apps/bootcamp-isabelle/components"/>
+    <filter root="/apps/bootcamp-isabelle/i18n"/>
+</workspaceFilter>

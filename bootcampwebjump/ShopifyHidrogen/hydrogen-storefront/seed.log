@@ -1,0 +1,45 @@
+
+>>> Seeding loja-la-belle-w1xqp4nk.myshopify.com (API 2024-10)
+
+Online Store publication: gid://shopify/Publication/170806378671
+
+>>> Verificando produtos existentes...
+   [camiseta-bootcamp-2026] ja existe (gid://shopify/Product/8562435326127) - deletando...
+
+[camiseta-bootcamp-2026] criando "Camiseta Bootcamp 2026"...
+   produto: gid://shopify/Product/8562437882031
+   preco: R$ 89.90 (de R$ 119.90)
+   publicado no Online Store
+
+[caneca-dev-mode] criando "Caneca Dev Mode"...
+   produto: gid://shopify/Product/8562437914799
+   preco: R$ 49.90
+   publicado no Online Store
+
+[kit-adesivos-stack] criando "Kit Adesivos Stack"...
+   produto: gid://shopify/Product/8562437947567
+   preco: R$ 29.90 (de R$ 39.90)
+   publicado no Online Store
+
+[livro-clean-code-patterns] criando "Livro Clean Code Patterns"...
+   produto: gid://shopify/Product/8562437980335
+   preco: R$ 119.90
+   publicado no Online Store
+
+[mochila-tech-pro] criando "Mochila Tech Pro"...
+   produto: gid://shopify/Product/8562438013103
+   preco: R$ 249.90 (de R$ 299.90)
+   publicado no Online Store
+
+>>> Criando colecao "destaques"...
+   colecao: gid://shopify/Collection/367245361327
+   5 produtos adicionados
+   colecao publicada no Online Store
+
+>>> Seed concluido!
+    - 5 produtos criados
+    - 1 colecao "destaques" com todos os produtos
+    - Metafields custom.tech_stack e custom.highlight_badge em cada produto
+
+    Admin: https://loja-la-belle-w1xqp4nk.myshopify.com/admin/products
+
